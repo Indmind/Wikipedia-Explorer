@@ -61,7 +61,7 @@ $(document).ready(function () {
 		const title = data.query.pages[Object.keys(data.query.pages)[0]].title;
 		$("#main-content").html('');
 		$("#main-content").append(`<div class="content">
-		<a href="https://wikipedia.org/wiki/${title}">${title}</a></div>
+		<a href="https://www.wikipedia.org/wiki/${title}">${title}</a></div>
 		<iframe id="my-frame" src="http://wikipedia.org/wiki/${title}"  />`);
 		showAll();
 		document.getElementById("my-frame").onload = function(){
