@@ -62,7 +62,7 @@ $(document).ready(function () {
 		$("#main-content").html('');
 		$("#main-content").append(`<div class="content">
 		<a href="https://www.wikipedia.org/wiki/${title}">${title}</a></div>
-		<iframe id="my-frame" src="http://wikipedia.org/wiki/${title}"  />`);
+		<iframe id="my-frame" src="http://www.wikipedia.org/wiki/${title}"  />`);
 		showAll();
 		document.getElementById("my-frame").onload = function(){
 			loader.hide();
